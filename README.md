@@ -26,7 +26,7 @@ My Bank is a sleek and modern banking application built with Flutter. It simulat
 
 | Splash | PIN Login | Home |
 |--------|-----------|------|
-| ![screenshot1](assets/images/screenshots/screenshot1.png) | ![screenshot2](assets/images/screenshots/screenshot2.png) | ![screenshot3](assets/images/screenshots/images/screenshot3.png) |
+| ![screenshot1](assets/images/screenshots/screenshot1.png) | ![screenshot2](assets/images/screenshots/screenshot2.png) | ![screenshot3](assets/images/screenshots/screenshot3.png) |
 
 | Drawer | Quick Transfer | Beneficiaries |
 |--------|----------------|----------------|

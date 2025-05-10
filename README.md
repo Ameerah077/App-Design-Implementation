@@ -1,74 +1,85 @@
-# 📱 App Design & Implementation – Flutter Project
+# 📱 My Bank App 
 
 ## 📝 Overview
-
-In this individual project, you will **design and implement a Flutter app** of your choice.  
-This is your chance to showcase your creativity and apply a wide range of Flutter concepts and widgets to create a unique and engaging user experience.
-
-> 🎯 You are required to implement **at least seven different UIs** and include **all the mandatory concepts listed below**.
+My Bank is a sleek and modern banking application built with Flutter. It simulates a real mobile banking experience by providing interactive UIs, smooth navigation, and essential banking features. This project showcases various Flutter concepts including state management, routing, and UI design with a focus on user experience.
 
 ---
 
-## ✅ Mandatory Requirements
+## 🎯 Features Implemented
 
-| Feature | Description |
-|--------|-------------|
-| 🔹 Drawer Widget | Use a navigational drawer to manage different sections of the app. |
-| 🔹 AlertDialog | Implement alert dialogs for confirmations or important messages. |
-| 🔹 TextFields | Add input fields for search bars, forms, or login screens. |
-| 🔹 Navigation Between Views | Provide smooth and seamless navigation across views. |
-| 🔹 BottomNavigationBar | Allow users to switch between major sections of the app. |
-| 🔹 External Packages | Use **at least 2** external packages to enhance UI/UX. |
-| 🔹 Shimmer Effect | Add shimmer loading animations to improve user experience. |
-| 🔹 Splash Screen | Include a splash screen on app launch. |
-| 🔹 Bottom Sheet | Show additional options or info using bottom sheets. |
-| 🔹 TabBarView & TabBar | Organize content using tabs for better UX. |
-| 🔹 PageView | Create scrollable pages (e.g., for onboarding or sliders). |
+| Feature                    | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| 🧭 Drawer Widget          | Navigation drawer to access major app sections                             |
+| ⚠️ AlertDialog            | Confirmation dialog for logout                                              |
+| 🔤 TextFields             | Used for input (e.g., Quick Transfer screen)                                |
+| 🔁 Navigation             | Named route navigation across multiple screens                              |
+| 📂 BottomNavigationBar    | Switch between Home, Cards, Payments, and Profile                          |
+| 📦 External Packages      | `google_fonts` for typography and `shimmer` for loading placeholders        |
+| ✨ Shimmer Effect         | Loading effect for the cards slider in Cards screen                         |
+| 🚀 Splash Screen          | Splash screen shown on app startup                                          |
+| 📥 Bottom Sheet           | Bottom sheet added in Profile screen for additional options                 |
+| 🗂️ TabBarView + TabBar   | Organized Payment section into tabs (e.g., Payments, Refunds, Requests)     |
+| 📄 PageView               | Used in CardsScreen to show card slider                                     |
+
+---
+## 📸 Screenshots
+
+| Splash | PIN Login | Home |
+|--------|-----------|------|
+| ![screenshot1](assets/images/screenshots/screenshot1.png) | ![screenshot2](assets/images/screenshots/screenshot2.png) | ![screenshot3](assets/images/screenshots/images/screenshot3.png) |
+
+| Drawer | Quick Transfer | Beneficiaries |
+|--------|----------------|----------------|
+| ![screenshot4](assets/images/screenshots/screenshot4.png) | ![screenshot5](assets/images/screenshots/screenshot5.png) | ![screenshot6](assets/images/screenshots/screenshot6.png) |
+
+| Cards | Payments-TapView | Profile |
+|----------|----------|---------|
+| ![screenshot7](assets/images/screenshots/screenshot7.png) | ![screenshot8](assets/images/screenshots/screenshot8.png) | ![screenshot9](assets/images/screenshots/screenshot9.png) |
+
+| Bottom Sheet | AlertDialog |
+|--------|--------------|
+| ![screenshot10](assets/images/screenshots/screenshot10.png) | ![screenshot11](assets/images/screenshots/screenshot11.png) |
 
 ---
 
-## 📌 Guidelines
-
-- This is an **individual project** – work independently.
-- Feel free to explore and demonstrate your creativity.
-- Design and implementation should reflect **your unique vision and skills**.
-
----
-
-## 📤 Submission Requirements
-
-### 🖼️ Screenshots / Videos
-- Provide clear screenshots or a **short demo video** of your app highlighting key features and UI.
-
-### 🧾 README File (Documentation)
-Your `README.md` should include:
-
-- **Purpose** and **features** of your app.
-- **Widgets** and **external packages** used.
-- **Instructions** for running the app.
-- Any additional **notes** or design choices you'd like to share.
+## 🚀 How to Run
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Ameerah077/App-Design-Implementation.git
+   ```
+2. Navigate to the project folder:
+   ```bash
+   cd my-bank-app
+   ```
+3. Get dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```
 
 ---
 
-## 🧰 Resources
+## 🧱 Widgets & Packages Used
 
-- **Flutter Widgets & Documentation:** [Material Components](https://flutter.dev/docs/development/ui/widgets)
-- **Color Palettes:** [Color Hunt](https://colorhunt.co/)
-- **Design Inspiration:**  
-  - [Figma Community](https://www.figma.com/community)  
-  - [Pinterest](https://www.pinterest.com)  
-  - [Dribbble](https://dribbble.com)  
-  - [Mobbin](https://mobbin.com)
+### Key Widgets:
+- `Scaffold`, `Drawer`, `AppBar`, `BottomNavigationBar`, `ListView`, `PageView`
+- `AlertDialog`, `TabBar`, `TabBarView`, `TextField`, `GridView`, `DropdownButton`
 
----
-
-## ⏰ Deadline
-
-**Submit your project by May 11, before 10:00 AM.**
+### External Packages:
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [shimmer](https://pub.dev/packages/shimmer)
 
 ---
 
-## ✨ Final Note
+## 💡 Notes
+- The app is fully RTL supported.
+- Modular code using widget breakdown for reusability and readability.
+- Designed to be mobile-friendly with responsive layouts and consistent styling.
 
-> "Good luck, and have fun creating your app!" 🎨📱
+---
 
+## 👩‍🎓 Author
+Ameerah  Aloufi
